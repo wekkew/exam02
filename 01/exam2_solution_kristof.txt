@@ -1,0 +1,42 @@
+/**
+ * Name: Terminal and shell commands
+ * Completion time: max 1 hour
+ * Date: 2016-06-30
+ *
+ * Note
+ *
+ * The answer for these tasks are one or more terminal command(s).
+ * Please write your answer to the end of this file and mark every answer
+ * with the task number its an answer for. For example:
+ *   01: man cd
+ *
+ * You can give more than one answer to a question if you can!
+ * Also you can use your own terminal to try out the commands.
+ *
+ * Task 01: Get the manual page for the change directory command
+ * Task 02: Jump to the Library folder in the root of your filesystem
+ * Task 03: Jump back to your home directory
+ * Task 04: Create a new directory named "exam2" in the current directory
+ * Task 05: Go into this new "exam2" directory
+ * Task 06: Create an empty file named "test.js"
+ * Task 07: List the files in the current directory displaying all extended information
+ * Task 08: Write the following message to the screen: "console.log(2);"
+ * Task 09: Use the command from the prevoius task and direct its output to a file called "test.js"
+ * Task 10: Run the test.js file you created earlier with node
+ * Task 11: List the running processes on your computer, including the system processes
+ * Task 12: Use the command from task 11 and filter the result using grep to find the Dock process
+ */
+
+
+01: man cd
+02: cd .. [enter], cd .. [enter]
+03: cd ~
+04: mkdir exam2
+05: cd exam2
+06: touch test.js
+07: ls -l
+08: echo 'console.log(2);'
+09: echo 'console.log(2); >> test.js
+10: node ./test.js
+11: ps -e
+12: ps -e | grep Deck

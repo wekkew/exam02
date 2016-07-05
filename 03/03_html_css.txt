@@ -1,0 +1,24 @@
+<!--
+   Name: HTML and CSS
+   Completion time: max 2 hours
+   Date: 2016-06-30
+
+   Create a Web page with the layout found in the
+   layout.png file (files are in the 03_project_data folder).
+
+   You can see the constructing grid used to design the
+   page in the grid.png file, and the grid sizes in sizes.png.
+
+   For the exact color codes refer to the color_codes.png file.
+   Use a sans serif font on the page, the header size is 28 point.
+
+   Check the images folder for the puppy pictures you can use.
+
+   The page should:
+     - Replicate the look of the design as closely as possible.
+     - The page width is fixed, but you can create a simple
+       responsive layout if you have the time.
+     - The pager badges on the bottom of the page should be
+       clickable, but you don't have to link them to anywhere
+       (the size of a padge is 40px, the spacing is 10px).
+-->

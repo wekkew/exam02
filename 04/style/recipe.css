@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+}
+header {text-align: center;
+    position: relative;
+    left: 5%;
+    width: 90%;
+    background-color: #efe;
+    padding: 15px 0 0 0;
+}
+
+header input {
+    background-color: #f6f6f6;
+}
+
+#answere {
+    position: relative;
+    
+    width: 350px;
+    background-color: #f6f6f6;
+}
+
+section {
+    position: relative;
+    top: 85p;
+}
+
+.blankdiv {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.blankdiv > div {
+    background-color: black;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    margin: 50px;
+    padding: 15px;
+
+}
+.blankdiv > div > div,
+.blankdiv > div > p {
+    margin: 50px 0;
+    text-align: left;
+}
+
+#name,
+#author {
+    text-align: center;
+    margin: 0 50px;
+    float: left;
+}
+#publishDate {
+    display: none;
+    margin-right: 20px;
+}
+
+.simpleRecipe {
+    text-align: center;
+    float: left;
+    height: 100px;
+    width: 150px;
+    background-color: #efe;
+    margin: 10px;
+    padding-top: 45px;
+}
